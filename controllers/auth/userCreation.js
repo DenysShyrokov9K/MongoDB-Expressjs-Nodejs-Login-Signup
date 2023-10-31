@@ -1,6 +1,6 @@
-const { userModel } = require("../models/userListsData")
+const { userModel } = require("../../models/userListsData")
 const sha1 = require('sha1');
-const sendMail = require("./Functions/sendEmail");
+const sendMail = require("../Functions/sendEmail");
 
 const userCreation = async (req, res, next) => {
     if (req.method.toLowerCase() == "post") {

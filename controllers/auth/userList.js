@@ -1,4 +1,4 @@
-const { userModel } = require("../models/userListsData")
+const { userModel } = require("../../models/userListsData")
 const sha1 = require('sha1');
 
 

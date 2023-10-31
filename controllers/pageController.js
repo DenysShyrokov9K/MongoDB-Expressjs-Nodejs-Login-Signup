@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const LoginPath = path.join(__dirname, "..", "view", "Pages", "login.html");
-const SignupPath = path.join(__dirname, "..", "view", "Pages", "signup.html");
+const LoginPath = path.join(__dirname, "../", "view", "Pages", "login.html");
+const SignupPath = path.join(__dirname, "../", "view", "Pages", "signup.html");
 
 const loginPage = fs.readFileSync(LoginPath, { encoding: "utf-8" })
 const signupPage = fs.readFileSync(SignupPath, { encoding: "utf-8" })

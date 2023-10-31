@@ -1,4 +1,4 @@
-const { userModel } = require("../models/userListsData");
+const { userModel } = require("../../models/userListsData");
 
 const tokenVerify = async (req, res, next) => {
     if (req.method.toLowerCase() == "get") {
